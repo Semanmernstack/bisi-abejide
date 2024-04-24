@@ -2,7 +2,7 @@ import ImageComp from '@/components/ImageComp'
 import { client } from '@/sanity/lib/client'
 import { SocialIcon } from 'react-social-icons'
 async function getId(slug: string) {
-    const query =  `*[_type == "turban" && slug.current == "${slug}"][0] {
+    const query =  `*[_type == "ankara" && slug.current == "${slug}"][0] {
         _id,
           name,
           price,
@@ -37,7 +37,7 @@ async function page({params}: {params: {slug: string}}) {
         </div>
         <div className='flex flex-col gap-2  items-center justify-around sm:justify-between text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2  '>
            
-           <p className='font-bold text-sm sm:text-lg text-purple-900'>Make a purchase via</p>
+           <p className='font-bold text-sm sm:text-xl text-purple-900'>Make a purchase via</p>
            <div className='flex flex-col  gap-2 items-center'>
                <div className='flex items-center justify-between p-2'>
                    <h3>Whatsapp</h3>
