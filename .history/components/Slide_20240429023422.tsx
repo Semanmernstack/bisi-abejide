@@ -38,11 +38,11 @@ const settings = {
     
   return (
     
-    <div className=""> 
+    <div className=" max-2xl mx-auto"> 
 
-        <Carousel className=' ' {...settings}>
+        <Carousel className='w-full ' {...settings}>
                 <div   className='   relative'    >
-                    <Image className="  h-[600px] max-w-4xl mx-auto " src={one} alt='picone'  />
+                    <Image className=" object-cover h-[300px]  w-96" src={one} alt='picone'  />
                     <div className='flex flex-col absolute top-1/2 left-1/3 z-30   bg-slate-500 px-4 py-4    text-white font-bold rounded-2xl'>
                        
                         <h1 className=''>Welcome to <span className='text-lg md:text-xl'>LOLAFLO</span></h1>
@@ -53,7 +53,7 @@ const settings = {
                     
                 </div>
                 <div   className='  relative'  >
-                    <Image className='h-[600px]  max-w-4xl mx-auto   '    src={four} alt='pictwo'   />
+                    <Image className='h-[300px] object-cover w-full  '    src={four} alt='pictwo'   />
                         <div  className='flex flex-col absolute top-1/2 left-1/3 z-30   bg-slate-500 px-4 py-4   text-white font-bold rounded-2xl'>
                             <h1 className=''>Welcome to <span className='text-lg md:text-xl'>LOLAFLO</span></h1>
                             <span className='text-xs animate-pulse'>Shop here</span>
@@ -64,7 +64,7 @@ const settings = {
                     
                 </div>
                 <div  className=' relative'>
-                    <Image className=' h-[600px]   max-w-4xl mx-auto  '    src={three} alt='picthree ' />
+                    <Image className=' h-[300px] object-cover w-full '    src={three} alt='picthree ' />
                     <div  className=' flex flex-col absolute top-1/2 left-1/3 z-30   bg-slate-500 px-4 py-4    text-white font-bold rounded-2xl'>
                         <h1 className=''>Welcome to <span className='text-lg md:text-xl'>LOLAFLO</span></h1>
                         <span className='text-xs animate-pulse'>Shop here</span>
@@ -73,7 +73,7 @@ const settings = {
                 </div>
                 
                 <div className='  relative '>
-                    <Image className='h-[600px]  max-w-4xl mx-auto '   src={five} alt='picfoo'  />
+                    <Image className='h-[300px] object-cover w-full'   src={five} alt='picfoo'  />
                     <div  className=' flex flex-col absolute top-1/2 left-1/3 z-30   bg-slate-500 px-4 py-4  text-white font-bold rounded-2xl'>
                         <h1 className=''>Welcome to <span className='text-lg md:text-xl'>LOLAFLO</span></h1>
                         <span className='text-xs animate-pulse'>Shop here</span>
@@ -81,7 +81,7 @@ const settings = {
                     
                 </div>
                 <div  className='   relative'  >
-                    <Image className='h-[600px]  max-w-4xl mx-auto'   src={two} alt='picfiv'/>
+                    <Image className='h-[300px]  object-cover w-full'   src={two} alt='picfiv'/>
                     <div  className='flex flex-col absolute top-1/2 left-1/3 z-30   bg-slate-500 px-4 py-4  text-white font-bold rounded-2xl'>
                         <h1 className=''>Welcome to <span className='text-lg md:text-xl'>LOLAFLO</span></h1>
                         <span className='text-xs animate-pulse'>Shop here</span>

@@ -12,7 +12,7 @@ export default function Home() {
       <div>
         <Icon/>
       </div>
-      <div className="">
+      <div>
         <Slide/>
       </div>
       <div>

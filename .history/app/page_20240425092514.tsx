@@ -8,24 +8,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-green-50  gap-2">
-      <div>
-        <Icon/>
-      </div>
-      <div className="">
-        <Slide/>
-      </div>
-      <div>
-        <Product/>
-      </div>
-      <div>
-        <Anka/>
-      </div>
+    <main className="flex bg-green-50   flex-col gap-2">
+      <Icon/>
+      <Slide/>
+      <Product/>
       
-        <div>
-          <Tuban/>
-        </div>
-        
+        <Anka/>
+        <Tuban/>
       
       
       
