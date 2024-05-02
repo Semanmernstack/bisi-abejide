@@ -14,7 +14,7 @@ function Footer() {
     <div >
         <div>
             <NewsLet/>
-            <SubAi/>
+            <Ai/>
             <Delivery />
             <Icon/>
             <Contacts/>

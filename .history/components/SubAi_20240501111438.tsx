@@ -21,7 +21,7 @@ function SubAi() {
   transition={{
       duration: 1,
   }}
-       className='flex top-60 right-10 z-50 fixed rounded-md text-white     border p-2 '  >
+       className='flex top-60 right-10 z-50 fixed rounded-md text-white bg-slate-500    border p-2 '  >
        
        
        
